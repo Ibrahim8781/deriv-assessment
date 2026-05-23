@@ -1,0 +1,20 @@
+[
+  {
+    "strategy": "paragraph",
+    "top3_hit_rate": 0.6,
+    "total_queries": 5,
+    "hits": 3,
+    "partial_hits": 0,
+    "misses": 2,
+    "notes": "Paragraph chunks preserve natural breaks, likely better recall but may produce more chunks. Fixed chunks are simpler and produce uniform size, but can split sentences."
+  },
+  {
+    "strategy": "fixed",
+    "top3_hit_rate": 0.6,
+    "total_queries": 5,
+    "hits": 3,
+    "partial_hits": 0,
+    "misses": 2,
+    "notes": "Fixed chunks are uniform and faster to compute, but may cut semantics."
+  }
+]

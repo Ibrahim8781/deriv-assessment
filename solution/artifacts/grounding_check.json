@@ -1,0 +1,32 @@
+[
+  {
+    "query_id": "Q1",
+    "grounded": true,
+    "missing_citations": [],
+    "overlap_ok": true
+  },
+  {
+    "query_id": "Q2",
+    "grounded": true,
+    "missing_citations": [],
+    "overlap_ok": true
+  },
+  {
+    "query_id": "Q3",
+    "grounded": true,
+    "missing_citations": [],
+    "overlap_ok": true
+  },
+  {
+    "query_id": "Q4",
+    "grounded": true,
+    "missing_citations": [],
+    "overlap_ok": true
+  },
+  {
+    "query_id": "Q5",
+    "grounded": true,
+    "missing_citations": [],
+    "overlap_ok": true
+  }
+]

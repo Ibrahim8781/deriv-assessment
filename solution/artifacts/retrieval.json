@@ -1,0 +1,137 @@
+[
+  {
+    "query_id": "Q1",
+    "question": "I requested a bank withdrawal yesterday. How long can it take after approval?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "article_02_c1",
+        "doc_title": "Cash withdrawal processing",
+        "score": 5.0,
+        "chunk_text": "Withdrawal requests submitted before 17:00 UTC are usually reviewed on the same business day. Bank withdrawals may take 1 to 3 business days after approval. E-wallet withdrawals are typically"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "article_02_c2",
+        "doc_title": "Cash withdrawal processing",
+        "score": 4.0,
+        "chunk_text": "processed within 4 hours after approval. If an account is under compliance review, withdrawals remain pending until the review is completed. Users can check the withdrawal status from the cashier"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "article_01_c1",
+        "doc_title": "Password reset and account recovery",
+        "score": 3.0,
+        "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
+      }
+    ]
+  },
+  {
+    "query_id": "Q2",
+    "question": "My reset link is not working after an hour. Is that expected?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "article_02_c2",
+        "doc_title": "Cash withdrawal processing",
+        "score": 3.0,
+        "chunk_text": "processed within 4 hours after approval. If an account is under compliance review, withdrawals remain pending until the review is completed. Users can check the withdrawal status from the cashier"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "article_01_c1",
+        "doc_title": "Password reset and account recovery",
+        "score": 2.0,
+        "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "article_01_c2",
+        "doc_title": "Password reset and account recovery",
+        "score": 1.0,
+        "chunk_text": "passwords. If two-factor authentication is enabled and the user lost access to their authenticator app, backup codes can be used. If backup codes are unavailable, the user must complete identity"
+      }
+    ]
+  },
+  {
+    "query_id": "Q3",
+    "question": "Can support tell me what my password currently is?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "article_01_c1",
+        "doc_title": "Password reset and account recovery",
+        "score": 3.0,
+        "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "article_01_c2",
+        "doc_title": "Password reset and account recovery",
+        "score": 2.0,
+        "chunk_text": "passwords. If two-factor authentication is enabled and the user lost access to their authenticator app, backup codes can be used. If backup codes are unavailable, the user must complete identity"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "article_02_c2",
+        "doc_title": "Cash withdrawal processing",
+        "score": 2.0,
+        "chunk_text": "processed within 4 hours after approval. If an account is under compliance review, withdrawals remain pending until the review is completed. Users can check the withdrawal status from the cashier"
+      }
+    ]
+  },
+  {
+    "query_id": "Q4",
+    "question": "Will a utility bill from 8 months ago work for proof of address?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "article_01_c1",
+        "doc_title": "Password reset and account recovery",
+        "score": 3.0,
+        "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "article_02_c2",
+        "doc_title": "Cash withdrawal processing",
+        "score": 1.0,
+        "chunk_text": "processed within 4 hours after approval. If an account is under compliance review, withdrawals remain pending until the review is completed. Users can check the withdrawal status from the cashier"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "article_01_c2",
+        "doc_title": "Password reset and account recovery",
+        "score": 0.0,
+        "chunk_text": "passwords. If two-factor authentication is enabled and the user lost access to their authenticator app, backup codes can be used. If backup codes are unavailable, the user must complete identity"
+      }
+    ]
+  },
+  {
+    "query_id": "Q5",
+    "question": "Can I withdraw profit made on a demo account?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "article_01_c1",
+        "doc_title": "Password reset and account recovery",
+        "score": 2.0,
+        "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "article_02_c2",
+        "doc_title": "Cash withdrawal processing",
+        "score": 2.0,
+        "chunk_text": "processed within 4 hours after approval. If an account is under compliance review, withdrawals remain pending until the review is completed. Users can check the withdrawal status from the cashier"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "article_01_c2",
+        "doc_title": "Password reset and account recovery",
+        "score": 1.0,
+        "chunk_text": "passwords. If two-factor authentication is enabled and the user lost access to their authenticator app, backup codes can be used. If backup codes are unavailable, the user must complete identity"
+      }
+    ]
+  }
+]

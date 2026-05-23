@@ -1,0 +1,50 @@
+[
+  {
+    "chunk_id": "article_01_c1",
+    "doc_title": "Password reset and account recovery",
+    "section": "Login help",
+    "text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user",
+    "start_char": 0,
+    "end_char": 194
+  },
+  {
+    "chunk_id": "article_01_c2",
+    "doc_title": "Password reset and account recovery",
+    "section": "Login help",
+    "text": "passwords. If two-factor authentication is enabled and the user lost access to their authenticator app, backup codes can be used. If backup codes are unavailable, the user must complete identity",
+    "start_char": 195,
+    "end_char": 389
+  },
+  {
+    "chunk_id": "article_01_c3",
+    "doc_title": "Password reset and account recovery",
+    "section": "Login help",
+    "text": "verification before 2FA can be reset.",
+    "start_char": 390,
+    "end_char": 427
+  },
+  {
+    "chunk_id": "article_02_c1",
+    "doc_title": "Cash withdrawal processing",
+    "section": "Payments",
+    "text": "Withdrawal requests submitted before 17:00 UTC are usually reviewed on the same business day. Bank withdrawals may take 1 to 3 business days after approval. E-wallet withdrawals are typically",
+    "start_char": 0,
+    "end_char": 191
+  },
+  {
+    "chunk_id": "article_02_c2",
+    "doc_title": "Cash withdrawal processing",
+    "section": "Payments",
+    "text": "processed within 4 hours after approval. If an account is under compliance review, withdrawals remain pending until the review is completed. Users can check the withdrawal status from the cashier",
+    "start_char": 192,
+    "end_char": 387
+  },
+  {
+    "chunk_id": "article_02_c3",
+    "doc_title": "Cash withdrawal processing",
+    "section": "Payments",
+    "text": "history page.",
+    "start_char": 388,
+    "end_char": 401
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "query_id": "Q1",
+    "answer_label": "grounded_answer",
+    "answer": "Bank withdrawals may take 1 to 3 business days after approval [Cash withdrawal processing §article_02_c1].",
+    "citations": [
+      "Cash withdrawal processing §article_02_c1"
+    ],
+    "used_chunk_ids": [
+      "article_02_c1"
+    ]
+  },
+  {
+    "query_id": "Q2",
+    "answer_label": "grounded_answer",
+    "answer": "Your reset link is not working after an hour because reset links expire after 30 minutes [Password reset and account recovery §article_01_c1].",
+    "citations": [
+      "Password reset and account recovery §article_01_c1"
+    ],
+    "used_chunk_ids": [
+      "article_01_c1"
+    ]
+  },
+  {
+    "query_id": "Q3",
+    "answer_label": "grounded_answer",
+    "answer": "Support cannot tell you what your password currently is [Password reset and account recovery §article_01_c1]. Support agents cannot see or manually reveal user passwords [Password reset and account recovery §article_01_c1].",
+    "citations": [
+      "Password reset and account recovery §article_01_c1",
+      "Password reset and account recovery §article_01_c1"
+    ],
+    "used_chunk_ids": [
+      "article_01_c1",
+      "article_01_c1"
+    ]
+  },
+  {
+    "query_id": "Q4",
+    "answer_label": "insufficient_context",
+    "answer": "",
+    "citations": [],
+    "used_chunk_ids": []
+  },
+  {
+    "query_id": "Q5",
+    "answer_label": "insufficient_context",
+    "answer": "",
+    "citations": [],
+    "used_chunk_ids": []
+  }
+]
