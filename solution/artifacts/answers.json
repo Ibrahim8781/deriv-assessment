@@ -24,28 +24,36 @@
   {
     "query_id": "Q3",
     "answer_label": "grounded_answer",
-    "answer": "Support cannot tell you what your password currently is [Password reset and account recovery §article_01_c1]. Support agents cannot see or manually reveal user passwords [Password reset and account recovery §article_01_c1].",
+    "answer": "Support cannot tell you what your password currently is [Password reset and account recovery §article_01_c1].",
     "citations": [
-      "Password reset and account recovery §article_01_c1",
       "Password reset and account recovery §article_01_c1"
     ],
     "used_chunk_ids": [
-      "article_01_c1",
       "article_01_c1"
     ]
   },
   {
     "query_id": "Q4",
-    "answer_label": "insufficient_context",
-    "answer": "",
-    "citations": [],
-    "used_chunk_ids": []
+    "answer_label": "grounded_answer",
+    "answer": "A utility bill from 8 months ago will not work for proof of address because utility bills older than 6 months are not accepted [Document verification requirements §article_03_c1].",
+    "citations": [
+      "Document verification requirements §article_03_c1"
+    ],
+    "used_chunk_ids": [
+      "article_03_c1"
+    ]
   },
   {
     "query_id": "Q5",
-    "answer_label": "insufficient_context",
-    "answer": "",
-    "citations": [],
-    "used_chunk_ids": []
+    "answer_label": "grounded_answer",
+    "answer": "You cannot withdraw profit made on a demo account [Demo account behaviour §article_04_c1]. To withdraw funds, you should switch to a real account [Demo account behaviour §article_04_c1].",
+    "citations": [
+      "Demo account behaviour §article_04_c1",
+      "Demo account behaviour §article_04_c1"
+    ],
+    "used_chunk_ids": [
+      "article_04_c1",
+      "article_04_c1"
+    ]
   }
 ]

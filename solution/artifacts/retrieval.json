@@ -7,22 +7,22 @@
         "rank": 1,
         "chunk_id": "article_02_c1",
         "doc_title": "Cash withdrawal processing",
-        "score": 5.0,
+        "score": 0.24186988607501342,
         "chunk_text": "Withdrawal requests submitted before 17:00 UTC are usually reviewed on the same business day. Bank withdrawals may take 1 to 3 business days after approval. E-wallet withdrawals are typically"
       },
       {
         "rank": 2,
         "chunk_id": "article_02_c2",
         "doc_title": "Cash withdrawal processing",
-        "score": 4.0,
+        "score": 0.1745823016721932,
         "chunk_text": "processed within 4 hours after approval. If an account is under compliance review, withdrawals remain pending until the review is completed. Users can check the withdrawal status from the cashier"
       },
       {
         "rank": 3,
-        "chunk_id": "article_01_c1",
-        "doc_title": "Password reset and account recovery",
-        "score": 3.0,
-        "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
+        "chunk_id": "article_03_c1",
+        "doc_title": "Document verification requirements",
+        "score": 0.07898514073218463,
+        "chunk_text": "Proof of identity documents must be valid and unexpired. Proof of address documents must show the user's full name, address, and issue date. Utility bills older than 6 months are not accepted. Bank"
       }
     ]
   },
@@ -32,23 +32,23 @@
     "top_k": [
       {
         "rank": 1,
-        "chunk_id": "article_02_c2",
-        "doc_title": "Cash withdrawal processing",
-        "score": 3.0,
-        "chunk_text": "processed within 4 hours after approval. If an account is under compliance review, withdrawals remain pending until the review is completed. Users can check the withdrawal status from the cashier"
+        "chunk_id": "article_01_c3",
+        "doc_title": "Password reset and account recovery",
+        "score": 0.39117624832324893,
+        "chunk_text": "verification before 2FA can be reset."
       },
       {
         "rank": 2,
         "chunk_id": "article_01_c1",
         "doc_title": "Password reset and account recovery",
-        "score": 2.0,
+        "score": 0.2694097350157549,
         "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
       },
       {
         "rank": 3,
         "chunk_id": "article_01_c2",
         "doc_title": "Password reset and account recovery",
-        "score": 1.0,
+        "score": 0.0,
         "chunk_text": "passwords. If two-factor authentication is enabled and the user lost access to their authenticator app, backup codes can be used. If backup codes are unavailable, the user must complete identity"
       }
     ]
@@ -61,22 +61,22 @@
         "rank": 1,
         "chunk_id": "article_01_c1",
         "doc_title": "Password reset and account recovery",
-        "score": 3.0,
+        "score": 0.22409526730412307,
         "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
       },
       {
         "rank": 2,
         "chunk_id": "article_01_c2",
         "doc_title": "Password reset and account recovery",
-        "score": 2.0,
+        "score": 0.0,
         "chunk_text": "passwords. If two-factor authentication is enabled and the user lost access to their authenticator app, backup codes can be used. If backup codes are unavailable, the user must complete identity"
       },
       {
         "rank": 3,
-        "chunk_id": "article_02_c2",
-        "doc_title": "Cash withdrawal processing",
-        "score": 2.0,
-        "chunk_text": "processed within 4 hours after approval. If an account is under compliance review, withdrawals remain pending until the review is completed. Users can check the withdrawal status from the cashier"
+        "chunk_id": "article_01_c3",
+        "doc_title": "Password reset and account recovery",
+        "score": 0.0,
+        "chunk_text": "verification before 2FA can be reset."
       }
     ]
   },
@@ -86,24 +86,24 @@
     "top_k": [
       {
         "rank": 1,
-        "chunk_id": "article_01_c1",
-        "doc_title": "Password reset and account recovery",
-        "score": 3.0,
-        "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
+        "chunk_id": "article_03_c1",
+        "doc_title": "Document verification requirements",
+        "score": 0.4978381124919443,
+        "chunk_text": "Proof of identity documents must be valid and unexpired. Proof of address documents must show the user's full name, address, and issue date. Utility bills older than 6 months are not accepted. Bank"
       },
       {
         "rank": 2,
-        "chunk_id": "article_02_c2",
-        "doc_title": "Cash withdrawal processing",
-        "score": 1.0,
-        "chunk_text": "processed within 4 hours after approval. If an account is under compliance review, withdrawals remain pending until the review is completed. Users can check the withdrawal status from the cashier"
+        "chunk_id": "article_03_c2",
+        "doc_title": "Document verification requirements",
+        "score": 0.09012737971182799,
+        "chunk_text": "statements older than 3 months are not accepted. Images must be clear, uncropped, and readable."
       },
       {
         "rank": 3,
-        "chunk_id": "article_01_c2",
+        "chunk_id": "article_01_c1",
         "doc_title": "Password reset and account recovery",
         "score": 0.0,
-        "chunk_text": "passwords. If two-factor authentication is enabled and the user lost access to their authenticator app, backup codes can be used. If backup codes are unavailable, the user must complete identity"
+        "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
       }
     ]
   },
@@ -113,24 +113,24 @@
     "top_k": [
       {
         "rank": 1,
-        "chunk_id": "article_01_c1",
-        "doc_title": "Password reset and account recovery",
-        "score": 2.0,
-        "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
+        "chunk_id": "article_04_c1",
+        "doc_title": "Demo account behaviour",
+        "score": 0.352090651139475,
+        "chunk_text": "Demo accounts use virtual funds and do not reflect real-market execution exactly. Prices may be delayed in some environments. Demo profit cannot be withdrawn. Users should switch to a real account to"
       },
       {
         "rank": 2,
         "chunk_id": "article_02_c2",
         "doc_title": "Cash withdrawal processing",
-        "score": 2.0,
+        "score": 0.07789330235384158,
         "chunk_text": "processed within 4 hours after approval. If an account is under compliance review, withdrawals remain pending until the review is completed. Users can check the withdrawal status from the cashier"
       },
       {
         "rank": 3,
-        "chunk_id": "article_01_c2",
+        "chunk_id": "article_01_c1",
         "doc_title": "Password reset and account recovery",
-        "score": 1.0,
-        "chunk_text": "passwords. If two-factor authentication is enabled and the user lost access to their authenticator app, backup codes can be used. If backup codes are unavailable, the user must complete identity"
+        "score": 0.0,
+        "chunk_text": "If a user forgets their password, they can request a reset email from the login page. Reset links expire after 30 minutes. For security reasons, support agents cannot see or manually reveal user"
       }
     ]
   }
