@@ -13,11 +13,13 @@
   {
     "query_id": "Q2",
     "answer_label": "grounded_answer",
-    "answer": "Your reset link is not working after an hour because reset links expire after 30 minutes [Password reset and account recovery §article_01_c1].",
+    "answer": "Your reset link is not working after an hour because reset links expire after 30 minutes [Password reset and account recovery §article_01_c1]. This is expected for security reasons [Password reset and account recovery §article_01_c1].",
     "citations": [
+      "Password reset and account recovery §article_01_c1",
       "Password reset and account recovery §article_01_c1"
     ],
     "used_chunk_ids": [
+      "article_01_c1",
       "article_01_c1"
     ]
   },

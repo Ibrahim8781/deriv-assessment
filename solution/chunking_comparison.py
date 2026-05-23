@@ -20,7 +20,7 @@ from collections import Counter
 BASE_DIR = Path(__file__).resolve().parent
 ARTIFACTS_DIR = BASE_DIR / "artifacts"
 KB_DIR = Path(__file__).resolve().parent.parent / "kb"
-QUERIES_PATH = BASE_DIR / "queries.json"
+QUERIES_PATH = BASE_DIR.parent / "queries.json"  # repo root
 OUTPUT_PATH = ARTIFACTS_DIR / "chunking_comparison.json"
 
 # Utility tokeniser used for retrieval scoring
