@@ -8,7 +8,9 @@ import os
 from pathlib import Path
 
 CHUNKS_PATH = Path(__file__).resolve().parent / "artifacts" / "chunks.json"
-QUERIES_PATH = Path(__file__).resolve().parent / "queries.json"
+# Queries are now at repository root
+REPO_ROOT = Path(__file__).resolve().parent.parent
+QUERIES_PATH = REPO_ROOT / "queries.json"
 ARTIFACTS_DIR = Path(__file__).resolve().parent / "artifacts"
 RETRIEVAL_PATH = ARTIFACTS_DIR / "retrieval.json"
 
@@ -23,35 +25,40 @@ def tokenize(text: str):
     import re
     return re.findall(r"\b\w+\b", text.lower())
 
-
-def score_chunk(query_tokens, chunk_tokens):
-    # numeric score = number of shared tokens
-    return len(set(query_tokens) & set(chunk_tokens)
-)
+# The TF‑IDF based scoring will be performed later; keep tokenisation helper.
 
 
 def retrieve():
+    """Retrieve top‑3 most similar chunks for each query using TF‑IDF cosine similarity.
+    The function writes the results to `artifacts/retrieval.json` keeping the same schema.
+    """
     os.makedirs(ARTIFACTS_DIR, exist_ok=True)
     chunks = load_json(CHUNKS_PATH)
     queries = load_json(QUERIES_PATH)
-    # pre‑tokenise chunk texts once
-    for c in chunks:
-        c["_tokens"] = tokenize(c.get("text", ""))
+    # Prepare corpus for TF‑IDF: each chunk's text
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.metrics.pairwise import cosine_similarity
+
+    chunk_texts = [c.get("text", "") for c in chunks]
+    vectorizer = TfidfVectorizer(stop_words="english", ngram_range=(1, 2))
+    chunk_matrix = vectorizer.fit_transform(chunk_texts)
+
     results = []
     for q in queries:
-        q_tokens = tokenize(q.get("question", ""))
-        # compute scores
+        query_vec = vectorizer.transform([q.get("question", "")])
+        sims = cosine_similarity(query_vec, chunk_matrix).flatten()
+        # Pair each similarity with its chunk
         scored = []
-        for c in chunks:
-            sc = score_chunk(q_tokens, c["_tokens"])
+        for idx, sim in enumerate(sims):
+            c = chunks[idx]
             scored.append({
-                "rank": None,  # placeholder, will fill after sorting
+                "rank": None,
                 "chunk_id": c["chunk_id"],
                 "doc_title": c["doc_title"],
-                "score": float(sc),
+                "score": float(sim),
                 "chunk_text": c["text"],
             })
-        # sort descending by score, then by chunk_id for deterministic tie‑breaker
+        # Sort by similarity descending, then deterministic chunk_id tie‑breaker
         scored.sort(key=lambda x: (-x["score"], x["chunk_id"]))
         top_k = []
         for rank, item in enumerate(scored[:3], start=1):

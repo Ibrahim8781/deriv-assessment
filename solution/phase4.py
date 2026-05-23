@@ -17,9 +17,11 @@ from pathlib import Path
 from collections import Counter
 
 BASE_DIR = Path(__file__).resolve().parent
+# Repository root is one level up
+REPO_ROOT = BASE_DIR.parent
 ARTIFACTS_DIR = BASE_DIR / "artifacts"
 RETRIEVAL_PATH = ARTIFACTS_DIR / "retrieval.json"
-QUERIES_PATH = BASE_DIR / "queries.json"
+QUERIES_PATH = REPO_ROOT / "queries.json"
 ANSWERS_PATH = ARTIFACTS_DIR / "answers.json"
 EVAL_PATH = ARTIFACTS_DIR / "eval.json"
 GROUNDING_PATH = ARTIFACTS_DIR / "grounding_check.json"

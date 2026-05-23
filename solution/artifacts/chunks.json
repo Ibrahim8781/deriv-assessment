@@ -46,5 +46,37 @@
     "text": "history page.",
     "start_char": 388,
     "end_char": 401
+  },
+  {
+    "chunk_id": "article_03_c1",
+    "doc_title": "Document verification requirements",
+    "section": "Verification",
+    "text": "Proof of identity documents must be valid and unexpired. Proof of address documents must show the user's full name, address, and issue date. Utility bills older than 6 months are not accepted. Bank",
+    "start_char": 0,
+    "end_char": 197
+  },
+  {
+    "chunk_id": "article_03_c2",
+    "doc_title": "Document verification requirements",
+    "section": "Verification",
+    "text": "statements older than 3 months are not accepted. Images must be clear, uncropped, and readable.",
+    "start_char": 198,
+    "end_char": 293
+  },
+  {
+    "chunk_id": "article_04_c1",
+    "doc_title": "Demo account behaviour",
+    "section": "Trading",
+    "text": "Demo accounts use virtual funds and do not reflect real-market execution exactly. Prices may be delayed in some environments. Demo profit cannot be withdrawn. Users should switch to a real account to",
+    "start_char": 0,
+    "end_char": 199
+  },
+  {
+    "chunk_id": "article_04_c2",
+    "doc_title": "Demo account behaviour",
+    "section": "Trading",
+    "text": "trade with real funds.",
+    "start_char": 200,
+    "end_char": 222
   }
 ]

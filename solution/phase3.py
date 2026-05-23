@@ -29,9 +29,11 @@ if not GROK_API_KEY:
 
 # Paths
 BASE_DIR = Path(__file__).resolve().parent
+# Repository root is one level up
+REPO_ROOT = BASE_DIR.parent
 ARTIFACTS_DIR = BASE_DIR / "artifacts"
 RETRIEVAL_PATH = ARTIFACTS_DIR / "retrieval.json"
-QUERIES_PATH = BASE_DIR / "queries.json"
+QUERIES_PATH = REPO_ROOT / "queries.json"
 ANSWERS_PATH = ARTIFACTS_DIR / "answers.json"
 LLM_LOG_PATH = BASE_DIR / "llm_calls.jsonl"
 
@@ -131,8 +133,8 @@ def process_query(entry, all_chunks):
         "provider": "groq",
         "model": MODEL,
         "prompt_hash": hash_prompt(prompt),
-        "input_artifacts": [str(RETRIEVAL_PATH), str(QUERIES_PATH)],
-        "output_artifact": str(ANSWERS_PATH),
+        "input_artifacts": [os.path.relpath(RETRIEVAL_PATH, REPO_ROOT), os.path.relpath(QUERIES_PATH, REPO_ROOT)],
+        "output_artifact": os.path.relpath(ANSWERS_PATH, REPO_ROOT),
     }
     return answer_record, log_entry
 
